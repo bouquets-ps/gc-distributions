@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>PS! Game Corner Scripted Game Bits - Chain</title>
+<title>PS! Game Corner Scripted Game Bits - Tabletop</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 td {
@@ -17,7 +17,7 @@ body {
 <center>
 <h1><table><tr><td>PS! Game Corner Scripted Game Bits</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
-<td>CHAIN</td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/chain">CHAIN</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/identification-1">IDENTIFICATION</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/knowledge-1">KNOWLEDGE</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/luck">LUCK</a></td>
@@ -27,7 +27,7 @@ body {
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/puzzle">PUZZLE</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/reaction">REACTION</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/speed">SPEED</a></td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/tabletop">TABLETOP</a></td>
+<td style="width: 50px"></td><td>TABLETOP</td>
 </tr></table></span></h3>
 </center>
 
