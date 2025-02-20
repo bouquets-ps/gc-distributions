@@ -92,7 +92,8 @@ body {
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -720px"></span>Ninjask's Corners</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td colspan="3"><i>To be updated</i></td></tr>
+<tr><td>Signups</td><td rowspan="2">250 bits</td><td>0 bits</td></tr>
+<tr><td>Free-join</td><td>10 bits per point</td></tr>
 </table>
 
 
