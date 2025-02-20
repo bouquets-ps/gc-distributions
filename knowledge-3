@@ -103,7 +103,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -790px"></span>Wailord's Egg Compatibilities</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -780px"></span>Wailord's Egg Compatibilities</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>Free-join</td><td>500 bits</td><td>10 bits per point</td></tr>
