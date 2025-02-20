@@ -79,7 +79,7 @@ body {
 <tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>100 bits per point<br><i>extra bits for each perfect forage</i></td><td>0 bits</td></tr>
 <tr><td colspan="2"></td></tr>
-<tr><td><b>Number of players with perfect forage</b></td><td><b>Extra bits</b></td></tr>
+<tr><td><b>Number of players with perfect forage in a round</b></td><td><b>Extra bits for that round</b></td></tr>
 <tr><td>1</td><td>300 bits</td></tr>
 <tr><td>2</td><td>150 bits</td></tr>
 <tr><td>3</td><td>100 bits</td></tr>
