@@ -44,13 +44,13 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3">Abra's Ability Switch</td></tr>
-<tr><td colspan="3">Beheeyem's Mass Effect</td></tr>
-<tr><td colspan="3">Gallade's Ability Test</td></tr>
-<tr><td colspan="3">Greninja's Typings</td></tr>
-<tr><td colspan="3">Kirlia's Tracing Show</td></tr>
-<tr><td colspan="3">Magcargo's Weak Spot</td></tr>
-<tr><td colspan="3">Miltank's Moves</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -150px"></span>Abra's Ability Switch</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1500px"></span>Beheeyem's Mass Effect</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1170px"></span>Gallade's Ability Test</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1620px"></span>Greninja's Typings</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -690px"></span>Kirlia's Tracing Show</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -540px"></span>Magcargo's Weak Spot</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -600px"></span>Miltank's Moves</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
@@ -66,7 +66,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3">Porygon's Movesearch Match</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -330px"></span>Porygon's Movesearch Match</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
@@ -81,7 +81,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2">Shedinja's Wonder Trials</td></tr>
+<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -720px"></span>Shedinja's Wonder Trials</td></tr>
 <tr><td colspan="2"></td></tr>
 <tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
