@@ -49,7 +49,7 @@ body {
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
-<tr><td>Time Attack</td><td rowspan="2">1 bits per point</td></tr>
+<tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
 <tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
