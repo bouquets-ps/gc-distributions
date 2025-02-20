@@ -71,11 +71,21 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1050px"></span>Mismagius' Foul Play</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="3"><i>To be updated</i></td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -150px"></span>Poliwrath's Portmanteaus</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Free-join</td><td>50 bits per point</td><td>10 bits per point</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Free-join</td><td>50 bits per point</td><td rowspan="3">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -99,12 +109,3 @@ body {
 <tr><td>500 bits</td><td>100 bits per point</td></tr>
 </table>
 
-<br>
-
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1050px"></span>Mismagius' Foul Play</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td colspan="3"><i>To be updated</i></td></tr>
-</table>
