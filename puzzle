@@ -73,8 +73,8 @@ body {
 <tr><td colspan="3"><b>Game</b></td></tr>
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1050px"></span>Mismagius' Foul Play</td></tr>
 <tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td colspan="3"><i>To be updated</i></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>300 bits<br><i>100 extra bits per identification</i><br><i>150 extra bits per kidnap</i></td><td><i>300 extra bits if your team win</i><br><i>50 extra bits per identification</i><br><i>75 extra bits per kidnap</i></td></tr>
 </table>
 
 <br>
