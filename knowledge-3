@@ -59,17 +59,6 @@ body {
 <br>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -1710px"></span>Malamar's Bowls</td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1680px"></span>Pancham's Pairs</td></tr>
-<tr><td colspan="2"></td></tr>
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>500 bits</td><td>10 bits per point</td></tr>
-</table>
-
-<br>
-
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3"><b>Game</b></td></tr>
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -60px"></span>Pikachu's Mystery Pokemon</td></tr>
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -570px"></span>Smeargle's Mystery Moves</td></tr>
@@ -97,6 +86,27 @@ body {
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td colspan="3"><i>To be updated</i></td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -1710px"></span>Malamar's Bowls</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>10 bits per point</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1680px"></span>Pancham's Pairs</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Signups</td><td rowspan="2">500 bits</td><td>250 bits if last to be eliminated</td></tr>
+<tr><td>Free-join</td><td>10 bits per point</td></tr>
 </table>
 
 <br>
