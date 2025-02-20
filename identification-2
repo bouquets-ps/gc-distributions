@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PS! Game Corner Scripted Game Bits - Identification 2</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<style>
+td {
+  vertical-align: middle;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  padding: 30px;
+}
+</style>
+</head>
+<body style="background-color: black; color: white">
+<center>
+<h1><table><tr><td>PS! Game Corner Scripted Game Bits</td></tr></table></h1>
+<h3><span style="letter-spacing:5px;"><table><tr>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/chain">CHAIN</a></td>
+<td style="width: 50px"></td><td>IDENTIFICATION</td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/knowledge-1">KNOWLEDGE</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/luck">LUCK</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/map">MAP</a></td>
+</tr></table>
+<br><table><tr>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/puzzle">PUZZLE</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/reaction">REACTION</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/speed">SPEED</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/tabletop">TABLETOP</a></td>
+</tr></table></span></h3>
+</center>
+
+<hr><br>
+<center>
+
+<h3><table><tr>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-bits/blob/main/identification-1">1</td>
+<td style="width: 50px"></td><td>2</a></td>
+</tr></table></h3>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -1050px"></span>Ambipom's Tossups</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -240px"></span>Hitmonchan's Hangman</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -240px"></span>Hypno's Hunches</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -1860px"></span>Mareanie's Marquees</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1770px"></span>Zygarde's Orders</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td><td>10 bits per point</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -420px"></span>Lanturn's Illuminated Letters</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td>500 bits</td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td></tr>
+</table>
