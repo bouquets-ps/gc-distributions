@@ -75,8 +75,8 @@ body {
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -570px"></span>Smeargle's Mystery Moves</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Free-join</td><td>500 bits</td><td>10 bits per point</td></tr>
-<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td><td>10 bits per point</td></tr>
+<tr><td>Free-join</td><td>500 bits</td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td></tr>
 </table>
 
 <br>
@@ -106,7 +106,7 @@ body {
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -780px"></span>Wailord's Egg Compatibilities</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Free-join</td><td>500 bits</td><td>10 bits per point</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Free-join</td><td>500 bits</td><td rowspan="3">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
