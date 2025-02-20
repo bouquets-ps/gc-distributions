@@ -35,7 +35,9 @@ body {
 <center>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -1500px"></span><br><b>Fraxure's Battle Chain</b></td></tr>
+<tr><td colspan="2">
+<img src="//play.pokemonshowdown.com/sprites/ani/fraxure.gif">
+<h4>Fraxure's Battle Chain</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table>
@@ -44,8 +46,8 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
-<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -450px"></span>
-<br><b>Politoed's Portmanteau Chain</b></td></tr>
+<img src="//play.pokemonshowdown.com/sprites/ani/politoed.gif">
+<h4>Politoed's Portmanteau Chain</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups</td><td rowspan="2">500 bits</td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
