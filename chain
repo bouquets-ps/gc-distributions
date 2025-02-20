@@ -36,10 +36,10 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -450px"></span>Politoed's Portmanteau Chain</td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -480px"></span>Unown's Pokemon Chain</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -450px"></span>Politoed's Portmanteau Chain
+<br>
+<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -480px"></span>Unown's Pokemon Chain</td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups</td><td rowspan="2">500 bits</td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
 </table>
