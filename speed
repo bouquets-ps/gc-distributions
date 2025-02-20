@@ -36,22 +36,6 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -300px"></span>Gyarados' Shiny Hunting</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
-<tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
-<tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
-<tr><td>PM Time Attack</td></tr>
-<tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
-<tr><td>Spotlight Team</td></tr>
-</table>
-
-<br>
-
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -960px"></span>Deoxys' Differences</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
@@ -67,10 +51,35 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -300px"></span>Gyarados' Shiny Hunting</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
+<tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
+<tr><td>PM Time Attack</td></tr>
+<tr><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Spotlight Team</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -300px"></span>Tauros' Safari Zone</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>1 bit per 10 points</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1740px"></span>Dedenne's Ability Blitz</td></tr>
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2910px"></span>Golem's Galvanic Mine</td></tr>
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -720px"></span>Ninjask's Corners</td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -300px"></span>Tauros' Safari Zone</td></tr>
 <tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -1410px"></span>Trubbish's Trash</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
