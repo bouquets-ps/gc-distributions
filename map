@@ -36,7 +36,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -1200px">Darkrai's Lair</td></tr>
+<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -1200px"></span>Darkrai's Lair</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td colspan="3"><i>To be updated</i></td></tr>
@@ -46,7 +46,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -240px">Electrode's Minefield</td></tr>
+<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -240px"></span>Electrode's Minefield</td></tr>
 <tr><td colspan="2"></td></tr>
 <tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>1 bit per 4 fragments</td><td>0 bits</td></tr>
@@ -56,7 +56,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -210px">Haunter's Haunted House</td></tr>
+<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -210px"></span>Haunter's Haunted House</td></tr>
 <tr><td colspan="2"></td></tr>
 <tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>1 bit per 6 candies<br><i>200 bits minimum</i></td><td>1 bit per 9 candies</td></tr>
@@ -66,7 +66,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1500px">Klinklang's Castle</td></tr>
+<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1500px"></span>Klinklang's Castle</td></tr>
 <tr><td colspan="2"></td></tr>
 <tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>1 bit per 4 gears<br><i>250 bits minimum</i></td><td>0 bits</td></tr>
@@ -76,7 +76,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -1500px">Lampent's Labyrinth</td></tr>
+<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -1500px"></span>Lampent's Labyrinth</td></tr>
 <tr><td colspan="2"></td></tr>
 <tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>1 bit per 4 wicks<br><i>250 bits minimum</i></td><td>0 bits</td></tr>
@@ -86,7 +86,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -120px">Persian's Garden</td></tr>
+<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -120px"></span>Persian's Garden</td></tr>
 <tr><td colspan="2"></td></tr>
 <tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td colspan="2">1 bit per 6 coins</td></tr>
