@@ -35,33 +35,70 @@ body {
 <center>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1080px"></span>Chatot's Musical Chairs</td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -870px"></span>Feebas' Chain Fishing</td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1860px"></span>Wishiwashi's Stat Fishing</td></tr>
-<tr><td colspan="2"></td></tr>
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>500 bits</td><td>0 bits</td></tr>
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/chandelure.gif">
+<h4>Chandelure's Candles</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td colspan="2"><i>To be updated</i></td></tr>
 </table>
 
 <br>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -270px"></span>Chansey's Egg Toss</td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -540px"></span>Octillery's Ambush</td></tr>
-<tr><td colspan="2"></td></tr>
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/chansey.gif">
+<h4>Chansey's Egg Toss</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>250 bits</td><td>0 bits</td></tr>
 </table>
 
 <br>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -1950px"></span>Tapus' Terrains</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/chatot.gif">
+<h4>Chatot's Musical Chairs</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/feebas.gif">
+<h4>Feebas' Chain Fishing</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/jigglypuff.gif">
+<h4>Jigglypuff's Dodgeball</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td colspan="2"><i>To be updated</i></td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/octillery.gif">
+<h4>Octillery's Ambush</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>250 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/tapukoko.gif">
+<h4>Tapus' Terrains</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups</td><td rowspan="3">500 bits</td><td rowspan="2">0 bits</td></tr>
 <tr><td>Elimination</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
@@ -70,20 +107,19 @@ body {
 <br>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2070px"></span>Thievul's Sweet Thief</td></tr>
-<tr><td colspan="2"></td></tr>
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/thievul.gif">
+<h4>Thievul's Sweet Thief</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>25 bits per point</td></tr>
 </table>
 
 <br>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1500px"></span>Chandelure's Candles</td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -90px"></span>Jigglypuff's Dodgeball</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td colspan="3"><i>To be updated</i></td></tr>
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/wishiwashi.gif">
+<h4>Wishiwashi's Stat Fishing</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
 </table>
