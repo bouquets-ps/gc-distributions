@@ -69,7 +69,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/cacturne.gif">
 <h4>Cacturne's Pokemon Cards</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>100 bits per point</td><td>0 bits</td></tr>
+<tr><td colspan="2">100 bits per point</td></tr>
 </table>
 
 <br>
@@ -79,7 +79,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/cradily.gif">
 <h4>Cradily's Closeup Cards</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>100 bits per point</td><td>0 bits</td></tr>
+<tr><td colspan="2">100 bits per point</td></tr>
 </table>
 
 <br>
@@ -109,7 +109,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/mew.gif">
 <h4>Mew's Move Cards</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>100 bits per point</td><td>0 bits</td></tr>
+<tr><td colspan="2">100 bits per point</td></tr>
 </table>
 
 <br>
