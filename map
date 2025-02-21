@@ -69,7 +69,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/klinklang.gif">
 <h4>Klinklang's Castle</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>1 bit per 4 gears<br><i>250 bits minimum</i></td><td>0 bits</td></tr>
+<tr><td>1 bit per 4 gears<br><i>250 bits minimum if gears > 0</i></td><td>0 bits</td></tr>
 </table>
 
 <br>
@@ -79,7 +79,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/lampent.gif">
 <h4>Lampent's Labyrinth</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>1 bit per 4 wicks<br><i>250 bits minimum</i></td><td>0 bits</td></tr>
+<tr><td>1 bit per 4 wicks<br><i>250 bits minimum if wicks > 0</i></td><td>0 bits</td></tr>
 </table>
 
 <br>
