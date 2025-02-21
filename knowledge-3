@@ -43,11 +43,20 @@ body {
 <br>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -870px"></span>Chimecho's Stat School</td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -810px"></span>Grumpig's Pokemath</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/buzzwole.gif">
+<h4>Buzzwole's Fizz Buzz</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/chimecho.gif">
+<h4>Chimecho's Stat School</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -59,11 +68,56 @@ body {
 <br>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -60px"></span>Pikachu's Mystery Pokemon</td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -570px"></span>Smeargle's Mystery Moves</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/grumpig.gif">
+<h4>Grumpig's Pokemath</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
+<tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
+<tr><td>PM Time Attack</td></tr>
+<tr><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Spotlight Team</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/inkay.gif">
+<h4>Inkay's Cups</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
+<tr><td colspan="3"><i>To be updated</i></td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/malamar.gif">
+<h4>Malamar's Bowls</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>10 bits per point</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/pancham.gif">
+<h4>Pancham's Pairs</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
+<tr><td>Signups</td><td rowspan="2">500 bits</td><td><i>To be updated</i></td></tr>
+<tr><td>Free-join</td><td>10 bits per point</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/pikachu.gif">
+<h4>Pikachu's Mystery Pokemon</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td>500 bits</td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td></tr>
 </table>
@@ -71,51 +125,21 @@ body {
 <br>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1980px"></span>Buzzwole's Fizz Buzz</td></tr>
-<tr><td colspan="2"></td></tr>
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>500 bits</td><td>0 bits</td></tr>
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/smeargle.gif">
+<h4>Smeargle's Mystery Moves</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
+<tr><td>Free-join</td><td>500 bits</td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td></tr>
 </table>
 
 <br>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1710px"></span>Inkay's Cups</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td colspan="3"><i>To be updated</i></td></tr>
-</table>
-
-<br>
-
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -1710px"></span>Malamar's Bowls</td></tr>
-<tr><td colspan="2"></td></tr>
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>500 bits</td><td>10 bits per point</td></tr>
-</table>
-
-<br>
-
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1680px"></span>Pancham's Pairs</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Signups</td><td rowspan="2">500 bits</td><td>250 bits if last to be eliminated</td></tr>
-<tr><td>Free-join</td><td>10 bits per point</td></tr>
-</table>
-
-<br>
-
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -780px"></span>Wailord's Egg Compatibilities</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/wailord.gif">
+<h4>Wailord's Egg Compatibilities</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td>500 bits</td><td rowspan="3">10 bits per point</td></tr>
 <tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td></tr>
 <tr><td>Spotlight Team</td></tr>
