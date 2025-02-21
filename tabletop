@@ -35,27 +35,102 @@ body {
 <center>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1500px"></span>Axew's Battle Cards</td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -600px"></span>Blissey's Egg Cards</td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span>Bulbasaur's Uno</td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -1470px"></span>Jellicent's Phantom Finances</td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -1740px"></span>Klefki's Locked Locations</td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -510px"></span>Shuckle's Defense Cards</td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -2010px"></span>Stakataka's Card Tower</td></tr>
-<tr><td colspan="2"></td></tr>
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/axew.gif">
+<h4>Axew's Battle Cards</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table>
 
 <br>
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="2"><b>Game</b></td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -810px"></span>Cacturne's Pokemon Cards</td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -840px"></span>Cradily's Closeup Cards</td></tr>
-<tr><td colspan="2"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -360px"></span>Mew's Move Cards</td></tr>
-<tr><td colspan="2"></td></tr>
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/blissey.gif">
+<h4>Blissey's Egg Cards</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/bulbasaur.gif">
+<h4>Bulbasaur's Uno</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/cacturne.gif">
+<h4>Cacturne's Pokemon Cards</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>100 bits per point</td><td>0 bits</td></tr>
 </table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/cradily.gif">
+<h4>Cradily's Closeup Cards</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>100 bits per point</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/jellicent.gif">
+<h4>Jellicent's Phantom Finances</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/klefki.gif">
+<h4>Klefki's Locked Locations</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/mew.gif">
+<h4>Mew's Move Cards</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>100 bits per point</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/shuckle.gif">
+<h4>Shuckle's Defense Cards</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/stakataka.gif">
+<h4>Stakataka's Card Tower</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+
+
