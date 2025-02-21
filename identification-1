@@ -43,7 +43,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
-<img src="//play.pokemonshowdown.com/sprites/ani/ekans.gif">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/ekans.gif">
 <h4>Ekans' Edges</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
@@ -59,7 +59,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
-<img src="//play.pokemonshowdown.com/sprites/ani/elgyem.gif">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/elgyem.gif">
 <h4>Elgyem's Number Encoder</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
@@ -72,7 +72,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
-<img src="//play.pokemonshowdown.com/sprites/ani/feraligatr.gif">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/feraligatr.gif">
 <h4>Feraligatr's Lost Letters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="3">500 bits</td><td>10 bits per point</td></tr>
@@ -86,7 +86,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
-<img src="//play.pokemonshowdown.com/sprites/ani/kyurem.gif">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/kyurem.gif">
 <h4>Kyurem's Splits</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
@@ -102,7 +102,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
-<img src="//play.pokemonshowdown.com/sprites/ani/lugia.gif">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/lugia.gif">
 <h4>Lugia's Obstructive Letters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="2">500 bits</td><td>2 bits per point</td></tr>
@@ -115,7 +115,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
-<img src="//play.pokemonshowdown.com/sprites/ani/magneton.gif">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/magneton.gif">
 <h4>Magneton's Mashups</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
@@ -128,7 +128,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
-<img src="//play.pokemonshowdown.com/sprites/ani/metang.gif">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/metang.gif">
 <h4>Metang's Anagrams</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
@@ -143,7 +143,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
-<img src="//play.pokemonshowdown.com/sprites/ani/mudbray.gif">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/mudbray.gif">
 <h4>Mudbray's One Aways</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
@@ -156,7 +156,7 @@ body {
 
 <table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
-<img src="//play.pokemonshowdown.com/sprites/ani/piplup.gif">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/piplup.gif">
 <h4>Piplup's Letter Placements</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
