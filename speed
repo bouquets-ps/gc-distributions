@@ -53,7 +53,7 @@ body {
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -79,7 +79,7 @@ body {
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
