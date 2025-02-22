@@ -52,7 +52,7 @@ body {
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -67,7 +67,7 @@ body {
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -82,7 +82,7 @@ body {
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -98,7 +98,7 @@ body {
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -114,7 +114,7 @@ body {
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -139,7 +139,7 @@ body {
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -154,7 +154,7 @@ body {
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -165,7 +165,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/trevenant.gif">
 <h4>Trevenant's Trick-or-Treat</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td colspan="2">1 bit per 2 points</td></tr>
+<tr><td>500 bits</td><td>1 bit per 2 points</td></tr>
 </table>
 
 <br>
@@ -175,7 +175,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/tropius.gif">
 <h4>Tropius' Berry Picking</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Signups</td><td>100 bits per round</td><td>0 bits</td></tr>
+<tr><td>Signups</td><td>100 bits per round<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>500 bits</td><td>10 bits per point</td></tr>
 </table>
 
@@ -191,6 +191,6 @@ body {
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
