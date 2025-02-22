@@ -175,8 +175,8 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/tropius.gif">
 <h4>Tropius' Berry Picking</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Signups</td><td rowspan="2"><i>To be updated</i></td><td><i>To be updated</i></td></tr>
-<tr><td>Free-join</td><td>10 bits per point</td></tr>
+<tr><td>Signups</td><td>100 bits per round</td><td>0 bits</td></tr>
+<tr><td>Free-join</td><td>500 bits</td><td>10 bits per point</td></tr>
 </table>
 
 <br>
