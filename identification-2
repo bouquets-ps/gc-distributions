@@ -48,7 +48,7 @@ body {
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td><td>10 bits per point</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>10 bits per point</td></tr>
 </table>
 
 <br>
@@ -60,7 +60,7 @@ body {
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td><td>10 bits per point</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>10 bits per point</td></tr>
 </table>
 
 <br>
@@ -72,7 +72,7 @@ body {
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td><td>10 bits per point</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>10 bits per point</td></tr>
 </table>
 
 <br>
@@ -83,7 +83,7 @@ body {
 <h4>Lanturn's Illuminated Letters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td>500 bits</td><td rowspan="2">10 bits per point</td></tr>
-<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table>
 
 <br>
@@ -95,7 +95,7 @@ body {
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td><td>10 bits per point</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>10 bits per point</td></tr>
 </table>
 
 <br>
@@ -107,6 +107,6 @@ body {
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td><td>10 bits per point</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>10 bits per point</td></tr>
 </table>
 
