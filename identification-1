@@ -107,7 +107,7 @@ body {
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td rowspan="2">500 bits</td><td>2 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>250 extra bits for earning points</i></td><td rowspan="2">2 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>250 extra bits for earning at least 1 point</i></td><td rowspan="2">2 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
