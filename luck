@@ -100,7 +100,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/greedent.gif">
 <h4>Greedent's Berry Piles</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>100 bits per point<br><i>(300/x) extra bits for each round's perfect forage</i><br><i>x equals the number of players with perfect forage</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
+<tr><td>100 bits per point<br><i>(300/x) extra bits for each perfect forage</i><br><i>x equals the number of players with perfect forage in each round</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 </table>
 
 <br>
