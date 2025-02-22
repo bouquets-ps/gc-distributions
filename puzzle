@@ -49,7 +49,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/empoleon.gif">
 <h4>Empoleon's Empires</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>500 bits</td><td>50 bits per elimination</td></tr>
+<tr><td>500 bits</td><td>50 bits per elimination<br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table>
 
 <br>
@@ -59,7 +59,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/landorus.gif">
 <h4>Landorus' War</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>500 bits</td><td>50 bits per elimination</td></tr>
+<tr><td>500 bits</td><td>50 bits per elimination<br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table>
 
 <br>
@@ -69,7 +69,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/mismagius.gif">
 <h4>Mismagius' Foul Play</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>300 bits<br><i>150 extra bits per kidnapping</i><br><i>100 extra bits per identification</i></td><td>300 bits if your team wins<br><i>75 extra bits per kidnapping</i><br><i>50 extra bits per identification</i></td></tr>
+<tr><td>300 bits<br><i>150 extra bits per kidnapping</i><br><i>100 extra bits per identification</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>300 bits if your team wins<br><i>75 extra bits per kidnapping</i><br><i>50 extra bits per identification</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table>
 
 <br>
@@ -81,7 +81,7 @@ body {
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td>50 bits per point</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>500 bits</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -93,7 +93,7 @@ body {
 <h4>Poliwrath's Portmanteaus</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td>50 bits per point</td><td rowspan="3">10 bits per point</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
@@ -116,7 +116,7 @@ body {
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join</td><td>50 bits per point</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>500 bits</td><td>10 bits per round</td></tr>
-<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Spotlight Team</td></tr>
 </table>
 
