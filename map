@@ -49,7 +49,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/electrode.gif">
 <h4>Electrode's Minefield</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>1 bit per 4 fragments</td><td>0 bits</td></tr>
+<tr><td>1 bit per 4 fragments<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 </table>
 
 <br>
@@ -59,7 +59,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/haunter.gif">
 <h4>Haunter's Haunted House</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>1 bit per 6 candies<br><i>200 bits minimum</i></td><td>1 bit per 9 candies</td></tr>
+<tr><td>1 bit per 6 candies<br><i><font color="77dd77">200 bits minimum</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 9 candies</td></tr>
 </table>
 
 <br>
@@ -69,7 +69,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/klinklang.gif">
 <h4>Klinklang's Castle</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>1 bit per 4 gears<br><i>250 bits minimum if you have at least 1 gear</i></td><td>0 bits</td></tr>
+<tr><td>1 bit per 4 gears<br><i><font color="77dd77">250 bits minimum if you have at least 1 gear</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 </table>
 
 <br>
@@ -79,7 +79,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/lampent.gif">
 <h4>Lampent's Labyrinth</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>1 bit per 4 wicks<br><i>250 bits minimum if you have at least 1 wick</i></td><td>0 bits</td></tr>
+<tr><td>1 bit per 4 wicks<br><i><font color="77dd77">250 bits minimum if you have at least 1 wick</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 </table>
 
 <br>
@@ -89,5 +89,5 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/persian.gif">
 <h4>Persian's Garden</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td colspan="2">1 bit per 6 coins</td></tr>
+<tr><td colspan="2">1 bit per 6 coins<br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table>
