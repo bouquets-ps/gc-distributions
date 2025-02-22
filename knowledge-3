@@ -108,7 +108,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/pancham.gif">
 <h4>Pancham's Pairs</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Signups</td><td rowspan="2">500 bits</td><td>250 bits for surviving to the round where there are only two players left</td></tr>
+<tr><td>Signups</td><td rowspan="2">500 bits</td><td>250 bits if you advanced to the round where there are only two players left</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
 </table>
 
