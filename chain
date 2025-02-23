@@ -49,7 +49,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/politoed.gif">
 <h4>Politoed's Portmanteau Chain</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Signups<br><i><font color="ff6961">Default</font></i></td><td rowspan="2">500 bits</td><td>0 bits</td></tr>
+<tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
 </table>
 
@@ -60,6 +60,6 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/unown.gif">
 <h4>Unown's Pokemon Chain</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Signups<br><i><font color="ff6961">Default</font></i></td><td rowspan="2">500 bits</td><td>0 bits</td></tr>
+<tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
 </table>
