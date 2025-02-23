@@ -47,7 +47,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/azelf.gif">
 <h4>Azelf's Alliteration</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -63,7 +63,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/bonsly.gif">
 <h4>Bonsly's Category Clutters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -78,7 +78,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/eevee.gif">
 <h4>Eevee's Evolutionary Lines</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -93,7 +93,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/jirachi.gif">
 <h4>Jirachi's Coloring Adventure</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -109,7 +109,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/natu.gif">
 <h4>Natu's Nature Min-Max</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -135,7 +135,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/slowking.gif">
 <h4>Slowking's Trivia</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -150,7 +150,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/sudowoodo.gif">
 <h4>Sudowoodo's Species Scramble</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -175,7 +175,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/tropius.gif">
 <h4>Tropius' Berry Picking</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Signups</td><td>100 bits per round<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
+<tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td>100 bits per round<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>500 bits</td><td>10 bits per point</td></tr>
 </table>
 
@@ -186,7 +186,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/xatu.gif">
 <h4>Xatu's Nature Clusters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
