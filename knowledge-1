@@ -47,7 +47,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/abra.gif">
 <h4>Abra's Ability Switch</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -63,7 +63,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/beheeyem.gif">
 <h4>Beheeyem's Mass Effect</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -79,7 +79,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/gallade.gif">
 <h4>Gallade's Ability Test</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -95,7 +95,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/greninja.gif">
 <h4>Greninja's Typings</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -111,7 +111,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/kirlia.gif">
 <h4>Kirlia's Tracing Show</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -127,7 +127,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/magcargo.gif">
 <h4>Magcargo's Weak Spot</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -143,7 +143,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/miltank.gif">
 <h4>Miltank's Moves</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
@@ -159,7 +159,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/porygon.gif">
 <h4>Porygon's Movesearch Match</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
 <tr><td>PM Time Attack</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
