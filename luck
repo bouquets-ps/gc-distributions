@@ -79,7 +79,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/dragapult.gif">
 <h4>Dragapult's Danger Zonet</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
-<tr><td>Team</td><td>150 bits<br><i>150 extra bits if you survived</i><br><i>50 extra bits per defeat</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">50 bits per defeat<br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
+<tr><td>Team<br><i><font color="77dd77">Default</font></i></td><td>150 bits<br><i>150 extra bits if you survived</i><br><i>50 extra bits per defeat</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">50 bits per defeat<br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 <td>Solo</td><td>500 bits</td></tr>
 </table>
 
