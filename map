@@ -89,5 +89,5 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/persian.gif">
 <h4>Persian's Garden</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td colspan="2">1 bit per 6 coins<br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
+<tr><td colspan="2">(1/6) bit per coin<br><i>Round to the nearest integer</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table>
