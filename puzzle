@@ -69,7 +69,7 @@ body {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/mismagius.gif">
 <h4>Mismagius' Foul Play</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>300 bits<br><i>150 extra bits per kidnapping</i><br><i>100 extra bits per identification</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>300 bits if your team won<br><i>75 extra bits per kidnapping</i><br><i>50 extra bits per identification</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
+<tr><td colspan="2">300 bits if your team won<br><i>150 extra bits per kidnapping if your team won</i><br><i>100 extra bits per identification if your team won</i><br><i>75 extra bits per kidnapping if your team lost</i><br><i>50 extra bits per identification if your team lost</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table>
 
 <br>
