@@ -50,10 +50,10 @@ document.getElementById("searchBar").addEventListener("input", function() {
     let filter = this.value.toLowerCase();
     let cards = document.querySelectorAll("#container .infobox");
     cards.forEach(card => {
-    card.style.display = card.textContent.toLowerCase().includes(filter) ? "" : "none";
+        card.style.display = card.querySelector(".searchValue").textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
+    });
+});
 
-});
-});
 
 </script>
 <style>
@@ -174,7 +174,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/fraxure.gif">
-<h4>Fraxure's Battle Chain</h4></td></tr>
+<h4 class="searchValue">Fraxure's Battle Chain</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -182,7 +182,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/politoed.gif">
-<h4>Politoed's Portmanteau Chain</h4></td></tr>
+<h4 class="searchValue">Politoed's Portmanteau Chain</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
@@ -191,7 +191,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/unown.gif">
-<h4>Unown's Pokemon Chain</h4></td></tr>
+<h4 class="searchValue">Unown's Pokemon Chain</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
@@ -200,7 +200,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/ekans.gif">
-<h4>Ekans' Edges</h4></td></tr>
+<h4 class="searchValue">Ekans' Edges</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -214,7 +214,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/elgyem.gif">
-<h4>Elgyem's Number Encoder</h4></td></tr>
+<h4 class="searchValue">Elgyem's Number Encoder</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -225,7 +225,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/feraligatr.gif">
-<h4>Feraligatr's Lost Letters</h4></td></tr>
+<h4 class="searchValue">Feraligatr's Lost Letters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="3">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
@@ -237,7 +237,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/kyurem.gif">
-<h4>Kyurem's Splits</h4></td></tr>
+<h4 class="searchValue">Kyurem's Splits</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -251,7 +251,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/lugia.gif">
-<h4>Lugia's Obstructive Letters</h4></td></tr>
+<h4 class="searchValue">Lugia's Obstructive Letters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>2 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -262,7 +262,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/magneton.gif">
-<h4>Magneton's Mashups</h4></td></tr>
+<h4 class="searchValue">Magneton's Mashups</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -273,7 +273,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/metang.gif">
-<h4>Metang's Anagrams</h4></td></tr>
+<h4 class="searchValue">Metang's Anagrams</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
@@ -286,7 +286,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/mudbray.gif">
-<h4>Mudbray's One Aways</h4></td></tr>
+<h4 class="searchValue">Mudbray's One Aways</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -297,7 +297,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/piplup.gif">
-<h4>Piplup's Letter Placements</h4></td></tr>
+<h4 class="searchValue">Piplup's Letter Placements</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -311,7 +311,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/ambipom.gif">
-<h4>Ambipom's Tossups</h4></td></tr>
+<h4 class="searchValue">Ambipom's Tossups</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -321,7 +321,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/hitmonchan.gif">
-<h4>Hitmonchan's Hangman</h4></td></tr>
+<h4 class="searchValue">Hitmonchan's Hangman</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -331,7 +331,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/hypno.gif">
-<h4>Hypno's Hunches</h4></td></tr>
+<h4 class="searchValue">Hypno's Hunches</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -341,7 +341,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/lanturn.gif">
-<h4>Lanturn's Illuminated Letters</h4></td></tr>
+<h4 class="searchValue">Lanturn's Illuminated Letters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td>500 bits</td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
@@ -350,7 +350,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/mareanie.gif">
-<h4>Mareanie's Marquees</h4></td></tr>
+<h4 class="searchValue">Mareanie's Marquees</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -360,7 +360,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/zygarde.gif">
-<h4>Zygarde's Orders</h4></td></tr>
+<h4 class="searchValue">Zygarde's Orders</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>10 bits per round</td></tr>
@@ -370,7 +370,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/abra.gif">
-<h4>Abra's Ability Switch</h4></td></tr>
+<h4 class="searchValue">Abra's Ability Switch</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -384,7 +384,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/beheeyem.gif">
-<h4>Beheeyem's Mass Effect</h4></td></tr>
+<h4 class="searchValue">Beheeyem's Mass Effect</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -398,7 +398,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/gallade.gif">
-<h4>Gallade's Ability Test</h4></td></tr>
+<h4 class="searchValue">Gallade's Ability Test</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -412,7 +412,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/greninja.gif">
-<h4>Greninja's Typings</h4></td></tr>
+<h4 class="searchValue">Greninja's Typings</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -426,7 +426,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/kirlia.gif">
-<h4>Kirlia's Tracing Show</h4></td></tr>
+<h4 class="searchValue">Kirlia's Tracing Show</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -440,7 +440,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/magcargo.gif">
-<h4>Magcargo's Weak Spot</h4></td></tr>
+<h4 class="searchValue">Magcargo's Weak Spot</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -454,7 +454,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/miltank.gif">
-<h4>Miltank's Moves</h4></td></tr>
+<h4 class="searchValue">Miltank's Moves</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -468,7 +468,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/porygon.gif">
-<h4>Porygon's Movesearch Match</h4></td></tr>
+<h4 class="searchValue">Porygon's Movesearch Match</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
@@ -481,7 +481,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/shedinja.gif">
-<h4>Shedinja's Wonder Trials</h4></td></tr>
+<h4 class="searchValue">Shedinja's Wonder Trials</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -489,7 +489,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/azelf.gif">
-<h4>Azelf's Alliteration</h4></td></tr>
+<h4 class="searchValue">Azelf's Alliteration</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -503,7 +503,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/bonsly.gif">
-<h4>Bonsly's Category Clutters</h4></td></tr>
+<h4 class="searchValue">Bonsly's Category Clutters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
@@ -516,7 +516,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/eevee.gif">
-<h4>Eevee's Evolutionary Lines</h4></td></tr>
+<h4 class="searchValue">Eevee's Evolutionary Lines</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
@@ -529,7 +529,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/jirachi.gif">
-<h4>Jirachi's Coloring Adventure</h4></td></tr>
+<h4 class="searchValue">Jirachi's Coloring Adventure</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -543,7 +543,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/natu.gif">
-<h4>Natu's Nature Min-Max</h4></td></tr>
+<h4 class="searchValue">Natu's Nature Min-Max</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -557,7 +557,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/poipole.gif">
-<h4>Poipole's Regional Portals</h4></td></tr>
+<h4 class="searchValue">Poipole's Regional Portals</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>5 bits per point</td></tr>
 </table><br><br></span>
@@ -565,7 +565,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/slowking.gif">
-<h4>Slowking's Trivia</h4></td></tr>
+<h4 class="searchValue">Slowking's Trivia</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
@@ -578,7 +578,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/sudowoodo.gif">
-<h4>Sudowoodo's Species Scramble</h4></td></tr>
+<h4 class="searchValue">Sudowoodo's Species Scramble</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
@@ -591,7 +591,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/trevenant.gif">
-<h4>Trevenant's Trick-or-Treat</h4></td></tr>
+<h4 class="searchValue">Trevenant's Trick-or-Treat</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>1 bit per 2 points</td></tr>
 </table><br><br></span>
@@ -599,7 +599,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/tropius.gif">
-<h4>Tropius' Berry Picking</h4></td></tr>
+<h4 class="searchValue">Tropius' Berry Picking</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td>100 bits<br><i>100 extra bits per round</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>500 bits</td><td>10 bits per point</td></tr>
@@ -608,7 +608,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/xatu.gif">
-<h4>Xatu's Nature Clusters</h4></td></tr>
+<h4 class="searchValue">Xatu's Nature Clusters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -622,7 +622,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/buzzwole.gif">
-<h4>Buzzwole's Fizz Buzz</h4></td></tr>
+<h4 class="searchValue">Buzzwole's Fizz Buzz</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -630,7 +630,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/chimecho.gif">
-<h4>Chimecho's Stat School</h4></td></tr>
+<h4 class="searchValue">Chimecho's Stat School</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
@@ -643,7 +643,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/grumpig.gif">
-<h4>Grumpig's Pokemath</h4></td></tr>
+<h4 class="searchValue">Grumpig's Pokemath</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
@@ -656,7 +656,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/inkay.gif">
-<h4>Inkay's Cups</h4></td></tr>
+<h4 class="searchValue">Inkay's Cups</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
@@ -665,7 +665,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/malamar.gif">
-<h4>Malamar's Bowls</h4></td></tr>
+<h4 class="searchValue">Malamar's Bowls</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>10 bits per point</td></tr>
 </table><br><br></span>
@@ -673,7 +673,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/pancham.gif">
-<h4>Pancham's Pairs</h4></td></tr>
+<h4 class="searchValue">Pancham's Pairs</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">500 bits</td><td>250 bits if you advanced to the round where there are only two players left</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
@@ -682,7 +682,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/pikachu.gif">
-<h4>Pikachu's Mystery Pokemon</h4></td></tr>
+<h4 class="searchValue">Pikachu's Mystery Pokemon</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td>500 bits</td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
@@ -691,7 +691,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/smeargle.gif">
-<h4>Smeargle's Mystery Moves</h4></td></tr>
+<h4 class="searchValue">Smeargle's Mystery Moves</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td>500 bits</td><td rowspan="2">10 bits per point</td></tr>
 <tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
@@ -700,7 +700,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/wailord.gif">
-<h4>Wailord's Egg Compatibilities</h4></td></tr>
+<h4 class="searchValue">Wailord's Egg Compatibilities</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td>500 bits</td><td rowspan="3">10 bits per point</td></tr>
 <tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
@@ -710,7 +710,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/absol.gif">
-<h4>Absol's Dice Disaster</h4></td></tr>
+<h4 class="searchValue">Absol's Dice Disaster</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -718,7 +718,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/bounsweet.gif">
-<h4>Bounsweet's Bountiful Buffet</h4></td></tr>
+<h4 class="searchValue">Bounsweet's Bountiful Buffet</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -726,7 +726,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/crustle.gif">
-<h4>Crustle's Crumbling Blocks</h4></td></tr>
+<h4 class="searchValue">Crustle's Crumbling Blocks</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>250 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -734,7 +734,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/delcatty.gif">
-<h4>Delcatty's Hide and Seek</h4></td></tr>
+<h4 class="searchValue">Delcatty's Hide and Seek</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -742,7 +742,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/dragapult.gif">
-<h4>Dragapult's Danger Zonet</h4></td></tr>
+<h4 class="searchValue">Dragapult's Danger Zonet</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td>150 bits<br><i>150 extra bits if you survived</i><br><i>50 extra bits per defeat</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">50 bits per defeat<br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 <td>Solo</td><td>500 bits</td></tr>
@@ -751,7 +751,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/falinks.gif">
-<h4>Falinks' Formations</h4></td></tr>
+<h4 class="searchValue">Falinks' Formations</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -759,7 +759,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/greedent.gif">
-<h4>Greedent's Berry Piles</h4></td></tr>
+<h4 class="searchValue">Greedent's Berry Piles</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td colspan="2">100 bits per point<br><i>(300/x) extra bits for each perfect forage</i><br><i>x equals the number of players with perfect forage in each round</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table><br><br></span>
@@ -767,7 +767,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/machop.gif">
-<h4>Machop's Matchups</h4></td></tr>
+<h4 class="searchValue">Machop's Matchups</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>250 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -775,7 +775,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/magikarp.gif">
-<h4>Magikarp's Water Wheel</h4></td></tr>
+<h4 class="searchValue">Magikarp's Water Wheel</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>1 bit per 10 points if you survived<br><i><font color="a2bffe">250 bits maximum</font></i></td></tr>
 </table><br><br></span>
@@ -783,7 +783,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/ponyta.gif">
-<h4>Ponyta's Pinata Party</h4></td></tr>
+<h4 class="searchValue">Ponyta's Pinata Party</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -791,7 +791,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/sableye.gif">
-<h4>Sableye's Trick House</h4></td></tr>
+<h4 class="searchValue">Sableye's Trick House</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -799,7 +799,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/skitty.gif">
-<h4>Skitty's Seek and Hide</h4></td></tr>
+<h4 class="searchValue">Skitty's Seek and Hide</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -807,7 +807,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/darkrai.gif">
-<h4>Darkrai's Lair</h4></td></tr>
+<h4 class="searchValue">Darkrai's Lair</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>1 bit per 4 dreams<br><i><font color="cb99c9">250 bits minimum</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 2 dreams if you survived and neither team won<br><i><font color="cb99c9">250 bits minimum if you survived and neither team won</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table><br><br></span>
@@ -815,7 +815,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/electrode.gif">
-<h4>Electrode's Minefield</h4></td></tr>
+<h4 class="searchValue">Electrode's Minefield</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>(1/4) bit per fragment<br><i>Round to the nearest integer</i><br><i><font color="cb99c9">250 bits minimum if you earned at least 1 fragment</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -823,7 +823,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/haunter.gif">
-<h4>Haunter's Haunted House</h4></td></tr>
+<h4 class="searchValue">Haunter's Haunted House</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>1 bit per 6 candies<br><i><font color="cb99c9">200 bits minimum</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 9 candies</td></tr>
 </table><br><br></span>
@@ -831,7 +831,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/klinklang.gif">
-<h4>Klinklang's Castle</h4></td></tr>
+<h4 class="searchValue">Klinklang's Castle</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>(1/4) bit per gear<br><i>Round to the nearest integer</i><br><i><font color="cb99c9">250 bits minimum if you earned at least 1 gear</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -839,7 +839,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/lampent.gif">
-<h4>Lampent's Labyrinth</h4></td></tr>
+<h4 class="searchValue">Lampent's Labyrinth</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>(1/4) bit per wick<br><i>Round to the nearest integer</i><br><i><font color="cb99c9">250 bits minimum if you earned at least 1 wick</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -847,7 +847,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/persian.gif">
-<h4>Persian's Garden</h4></td></tr>
+<h4 class="searchValue">Persian's Garden</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td colspan="2">(1/6) bit per coin<br><i>Round to the nearest integer</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table><br><br></span>
@@ -855,7 +855,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/ditto.gif">
-<h4>Ditto's Who Am I</h4></td></tr>
+<h4 class="searchValue">Ditto's Who Am I</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -863,7 +863,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/empoleon.gif">
-<h4>Empoleon's Empires</h4></td></tr>
+<h4 class="searchValue">Empoleon's Empires</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>50 bits per elimination<br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table><br><br></span>
@@ -871,7 +871,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/landorus.gif">
-<h4>Landorus' War</h4></td></tr>
+<h4 class="searchValue">Landorus' War</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>50 bits per elimination<br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table><br><br></span>
@@ -879,7 +879,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/mismagius.gif">
-<h4>Mismagius' Foul Play</h4></td></tr>
+<h4 class="searchValue">Mismagius' Foul Play</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td colspan="2">300 bits if your team won<br><i>150 extra bits per kidnapping if your team won</i><br><i>100 extra bits per identification if your team won</i><br><i>75 extra bits per kidnapping if your team lost</i><br><i>50 extra bits per identification if your team lost</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table><br><br></span>
@@ -887,7 +887,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/paras.gif">
-<h4>Paras' Parameters</h4></td></tr>
+<h4 class="searchValue">Paras' Parameters</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td>50 bits per point</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>500 bits</td><td>10 bits per round</td></tr>
@@ -898,7 +898,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/poliwrath.gif">
-<h4>Poliwrath's Portmanteaus</h4></td></tr>
+<h4 class="searchValue">Poliwrath's Portmanteaus</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td>50 bits per point</td><td rowspan="3">10 bits per point</td></tr>
 <tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
@@ -908,7 +908,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/serperior.gif">
-<h4>Serperior's Lengthy Chains</h4></td></tr>
+<h4 class="searchValue">Serperior's Lengthy Chains</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>10 bits per point</td></tr>
 </table><br><br></span>
@@ -916,7 +916,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/silvally.gif">
-<h4>Silvally's Unique Pairs</h4></td></tr>
+<h4 class="searchValue">Silvally's Unique Pairs</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td>50 bits per point</td><td>10 bits per point</td></tr>
 <tr><td>Survival</td><td>500 bits</td><td>10 bits per round</td></tr>
@@ -927,7 +927,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/spinda.gif">
-<h4>Spinda's Excluded Pokemon</h4></td></tr>
+<h4 class="searchValue">Spinda's Excluded Pokemon</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>100 bits per point</td></tr>
 </table><br><br></span>
@@ -935,7 +935,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/chandelure.gif">
-<h4>Chandelure's Candles</h4></td></tr>
+<h4 class="searchValue">Chandelure's Candles</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>100 bits per life taken from other players<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -943,7 +943,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/chansey.gif">
-<h4>Chansey's Egg Toss</h4></td></tr>
+<h4 class="searchValue">Chansey's Egg Toss</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>250 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -951,7 +951,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/chatot.gif">
-<h4>Chatot's Musical Chairs</h4></td></tr>
+<h4 class="searchValue">Chatot's Musical Chairs</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -959,7 +959,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/feebas.gif">
-<h4>Feebas' Chain Fishing</h4></td></tr>
+<h4 class="searchValue">Feebas' Chain Fishing</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -967,7 +967,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/jigglypuff.gif">
-<h4>Jigglypuff's Dodgeball</h4></td></tr>
+<h4 class="searchValue">Jigglypuff's Dodgeball</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>250 bits<br><i>250 extra bits if you survived</i></td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -975,7 +975,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/octillery.gif">
-<h4>Octillery's Ambush</h4></td></tr>
+<h4 class="searchValue">Octillery's Ambush</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>250 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -983,7 +983,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/tapukoko.gif">
-<h4>Tapus' Terrains</h4></td></tr>
+<h4 class="searchValue">Tapus' Terrains</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td rowspan="3">500 bits</td><td rowspan="2">0 bits</td></tr>
 <tr><td>Elimination</td></tr>
@@ -993,7 +993,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/thievul.gif">
-<h4>Thievul's Sweet Thief</h4></td></tr>
+<h4 class="searchValue">Thievul's Sweet Thief</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>25 bits per point</td></tr>
 </table><br><br></span>
@@ -1001,7 +1001,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/wishiwashi.gif">
-<h4>Wishiwashi's Stat Fishing</h4></td></tr>
+<h4 class="searchValue">Wishiwashi's Stat Fishing</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -1009,7 +1009,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/dedenne.gif">
-<h4>Dedenne's Ability Blitz</h4></td></tr>
+<h4 class="searchValue">Dedenne's Ability Blitz</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>1 bit per 2 points<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 10 points</td></tr>
 </table><br><br></span>
@@ -1017,7 +1017,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/deoxys.gif">
-<h4>Deoxys' Differences</h4></td></tr>
+<h4 class="searchValue">Deoxys' Differences</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
@@ -1030,7 +1030,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/golem-alola.gif">
-<h4>Golem's Galvanic Mine</h4></td></tr>
+<h4 class="searchValue">Golem's Galvanic Mine</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>(10/3) bits per point<br><i>Round down to the nearest integer</i></td></tr>
 </table><br><br></span>
@@ -1038,7 +1038,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/gyarados.gif">
-<h4>Gyarados' Shiny Hunting</h4></td></tr>
+<h4 class="searchValue">Gyarados' Shiny Hunting</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
@@ -1052,7 +1052,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/ninjask.gif">
-<h4>Ninjask's Corners</h4></td></tr>
+<h4 class="searchValue">Ninjask's Corners</h4></td></tr>
 <tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
 <tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">250 bits</td><td>0 bits</td></tr>
 <tr><td>Free-join</td><td>10 bits per point</td></tr>
@@ -1061,7 +1061,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/tauros.gif">
-<h4>Tauros' Safari Zone</h4></td></tr>
+<h4 class="searchValue">Tauros' Safari Zone</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>1 bit per 2 points<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 10 points</td></tr>
 </table><br><br></span>
@@ -1069,7 +1069,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/trubbish.gif">
-<h4>Trubbish's Trash</h4></td></tr>
+<h4 class="searchValue">Trubbish's Trash</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>1 bit per 2 points<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 10 points</td></tr>
 </table><br><br></span>
@@ -1077,7 +1077,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/axew.gif">
-<h4>Axew's Battle Cards</h4></td></tr>
+<h4 class="searchValue">Axew's Battle Cards</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -1085,7 +1085,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/blissey.gif">
-<h4>Blissey's Egg Cards</h4></td></tr>
+<h4 class="searchValue">Blissey's Egg Cards</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -1093,7 +1093,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/bulbasaur.gif">
-<h4>Bulbasaur's Uno</h4></td></tr>
+<h4 class="searchValue">Bulbasaur's Uno</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -1101,7 +1101,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/cacturne.gif">
-<h4>Cacturne's Pokemon Cards</h4></td></tr>
+<h4 class="searchValue">Cacturne's Pokemon Cards</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td colspan="2">100 bits per point</td></tr>
 </table><br><br></span>
@@ -1109,7 +1109,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/cradily.gif">
-<h4>Cradily's Closeup Cards</h4></td></tr>
+<h4 class="searchValue">Cradily's Closeup Cards</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td colspan="2">100 bits per point</td></tr>
 </table><br><br></span>
@@ -1117,7 +1117,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/jellicent.gif">
-<h4>Jellicent's Phantom Finances</h4></td></tr>
+<h4 class="searchValue">Jellicent's Phantom Finances</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -1125,7 +1125,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/klefki.gif">
-<h4>Klefki's Locked Locations</h4></td></tr>
+<h4 class="searchValue">Klefki's Locked Locations</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -1133,7 +1133,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/mew.gif">
-<h4>Mew's Move Cards</h4></td></tr>
+<h4 class="searchValue">Mew's Move Cards</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td colspan="2">100 bits per point</td></tr>
 </table><br><br></span>
@@ -1141,7 +1141,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/shuckle.gif">
-<h4>Shuckle's Defense Cards</h4></td></tr>
+<h4 class="searchValue">Shuckle's Defense Cards</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
@@ -1149,7 +1149,7 @@ button {
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/stakataka.gif">
-<h4>Stakataka's Card Tower</h4></td></tr>
+<h4 class="searchValue">Stakataka's Card Tower</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>0 bits</td></tr>
 </table><br><br></span>
