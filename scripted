@@ -809,7 +809,7 @@ button {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/darkrai.gif">
 <h4>Darkrai's Lair</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>1 bit per 4 dreams<br><i><font color="cb99c9">250 bits minimum if you earned at least 1 dream</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 2 dreams if you survived and neither team won<br><i><font color="cb99c9">250 bits minimum if you earned at least 1 dream and you survived and neither team won</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
+<tr><td>1 bit per 4 dreams<br><i><font color="cb99c9">250 bits minimum</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 2 dreams if you survived and neither team won<br><i><font color="cb99c9">250 bits minimum if you survived and neither team won</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
 </table><br><br></span>
 
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
