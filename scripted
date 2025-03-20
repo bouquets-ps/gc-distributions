@@ -1063,7 +1063,7 @@ button {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/tauros.gif">
 <h4>Tauros' Safari Zone</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>500 bits</td><td>1 bit per 10 points</td></tr>
+<tr><td>1 bit per 2 points<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 10 points</td></tr>
 </table><br><br></span>
 
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
@@ -1071,7 +1071,7 @@ button {
 <br><img src="//play.pokemonshowdown.com/sprites/ani/trubbish.gif">
 <h4>Trubbish's Trash</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
-<tr><td>500 bits</td><td>1 bit per 10 points</td></tr>
+<tr><td>1 bit per 2 points<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 10 points</td></tr>
 </table><br><br></span>
 
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
